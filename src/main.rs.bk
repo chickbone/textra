@@ -1,0 +1,16 @@
+fn main() {
+    println!("Hello, world!");
+    for i in 1..30{
+        fizz_buzz(i);
+    }
+}
+
+fn fizz_buzz(n: i32) {
+    if n % 15 == 0{
+        println!("FizzBuzz");
+    } else if n % 3 == 0{
+        println!("Fizz");
+    } else if n % 5 == 0{
+        println!("Buzz"); } else{ println!("{}",n);
+    }
+}
